@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+body {
+background-color: #8FAFC4;
+}
+header {
+	background-color: #336A86;
+	width: 70%;
+	margin-top: 5%;
+	margin-right: 15%;
+	margin-left: 15%;
+	
+}
+header h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #fafafa;
+	padding: 10px;
+	text-align: center;
+}
+
+header h1#name {
+	font-family: 'Roboto', sans-serif;
+	color: #fafafa;
+	text-align: center;
+	margin-right: 70px;
+} 
+header #button-back {
+	font-family: 'Roboto', sans-serif;
+	color: #336A86;
+	padding: 10px;
+	float: left;
+	margin: 0;
+	background-color: #fafafa;
+}
+.wrapper {
+	background-color: #336A86;
+	height: 400px;
+	width: 70%;
+	margin: 2% 15%;
+
+}
+.content {
+	width: 90%;
+	margin: 0 5% 0 5%;
+}
+.convert-options {
+	float: left;
+	width: 60%;
+	margin-top: 5%;
+}
+.content h3 {
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: #7DA2A1;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 3%;
+}
+
+.content ul {
+	text-align: center;
+}
+
+.content ul li {
+	display: inline-block;
+	padding: 10px;
+	padding-top: 20px;
+	margin: 0 15px 15px 0;
+	background-color: #eeeeee;
+	width: 250px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	outline: none;
+}
+
+.content ul li a {
+	color: #000000;
+	font-size: 1.5em;
+}
+
+.content ul li img{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
+.content-convert {
+	padding-top: 10%;
+}
+.wrapper .convert {
+	text-align: center;
+	margin-bottom: 3%;
+}
+.box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box select{
+    background-color: #7DA2A1;
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.wrapper .convert li {
+	font-size: 1.5em;
+	color: #7DA2A1;
+}
+
+.wrapper input[name="amount"]{
+	width: 250px;
+	margin: 0 0 5% 160px;
+	padding: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #474747;
+	height: 100%;
+	text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.wrapper input[type="submit"]{
+	width: 250px;
+	margin: 0 0 5% 160px;
+	padding: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border: none;
+	background-color: #7DA2A1;
+	font-size: 14px;
+	color: #fafafa;
+	height: 100%;
+	text-align: center;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	-webkit-appearance: button;
+	outline: none;
+
+}
+
+.output {
+	text-align: center;
+	float: right;
+	width: 40%;
+	margin-top: 5%;
+}
+
+.output h1, .output h3{
+	color: #fafafa;
+}
+.output h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+
+
