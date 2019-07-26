@@ -1,4 +1,4 @@
-# Currency Converter
+# Measurements Converter
 This app converts different measures and currencies using API
 
 # Installation
